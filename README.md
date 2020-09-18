@@ -2,7 +2,7 @@
 
 A pattern to organize your controllers with functions for you web app.
 
-[![Build Status](https://travis-ci.com/folded-php/action.svg?branch=master)](https://travis-ci.com/folded-php/action) [![Maintainability](https://api.codeclimate.com/v1/badges/abb7867ef7c3c0d21214/maintainability)](https://codeclimate.com/github/folded-php/action/maintainability) [![TODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/folded-php/action)](https://www.tickgit.com/browse?repo=github.com/getsentry/sentry-go)
+[![Build Status](https://travis-ci.com/folded-php/action.svg?branch=master)](https://travis-ci.com/folded-php/action) [![Maintainability](https://api.codeclimate.com/v1/badges/abb7867ef7c3c0d21214/maintainability)](https://codeclimate.com/github/folded-php/action/maintainability) [![TODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/folded-php/action)](https://www.tickgit.com/browse?repo=github.com/folded-php/action)
 
 ## Summary
 
