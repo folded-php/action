@@ -96,3 +96,4 @@ Which assumes your "action" file is located at `actions/home/index.php`.
 |        | 7.3 | 7.4 | 8.0 |
 | ------ | --- | --- | --- |
 | v0.1.0 | ❌  | ✔️  | ❓  |
+| v0.1.1 | ❌  | ✔️  | ❓  |
