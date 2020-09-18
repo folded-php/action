@@ -48,3 +48,17 @@ it("should throw an exception if the action is not found", function (): void {
     Action::setFolderPath(__DIR__ . "/misc/actions");
     Action::call("account.create");
 });
+
+it("should pass parameters to the called action", function (): void {
+    Action::setFolderPath(__DIR__ . "/misc/actions");
+
+    ob_start();
+
+    Action::call("admin.index", [
+        "name" => "John",
+    ]);
+
+    $content = ob_get_clean();
+
+    expect($content)->toBe("Welcome John");
+});

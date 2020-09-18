@@ -24,8 +24,10 @@ class Action
 
     /**
      * Include the content of the file.
+     * The parameters are passed using extract(), and keys are reflected as variable names.
      *
-     * @param string $path The path to the file (can use dot syntax).
+     * @param string $path       The path to the file (can use dot syntax).
+     * @param array  $parameters An array of key-value pairs to pass to the called action.
      *
      * @throws InvalidArgumentException If the action file is not found.
      *
@@ -34,8 +36,12 @@ class Action
      * @example
      * Action::call("home.index");
      */
-    public static function call(string $path): void
+    public static function call(string $path, array $parameters = []): void
     {
+        if (count($parameters) > 0) {
+            extract($parameters);
+        }
+
         include self::getPath($path);
     }
 

@@ -66,6 +66,7 @@ setActionFolderPath(__DIR__  . "/actions");
 
 - [1. Call an action](#1-call-an-action)
 - [2. Call an action by dot syntax](#2-call-an-action-by-dot-syntax)
+- [3. Pass parameters to the called action](#3-pass-parameters-to-the-called-action)
 
 ### 1. Call an action
 
@@ -90,6 +91,24 @@ callAction("home.index");
 ```
 
 Which assumes your "action" file is located at `actions/home/index.php`.
+
+### 3. Pass parameters to the called action
+
+In this example, we will pass parameters to `callAction` to use them in the called action.
+
+```php
+use function Folded\callAction;
+
+callAction("home.index", [
+  "name" => "John",
+]);
+```
+
+In your view located at `actions/home/index.php` you can use the `$name` parameter:
+
+```php
+echo "Welcome, $name";
+```
 
 ## Version support
 
