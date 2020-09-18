@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] 2020-09-18
+
 ### Added
 
 - New second optional parameters to `callAction()` to be able to pass parameters to your view (see example 3 in the [README](readme.md) for more information).
