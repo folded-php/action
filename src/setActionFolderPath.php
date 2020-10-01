@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Folded;
 
-if (!function_exists("setActionFolderPath")) {
+if (!function_exists("Folded\setActionFolderPath")) {
     /**
      * Set the folder to the actions files.
      *

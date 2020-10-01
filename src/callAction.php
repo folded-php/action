@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Folded;
 
-if (!function_exists("callAction")) {
+if (!function_exists("Folded\callAction")) {
     /**
      * Include the content of the file.
      *
