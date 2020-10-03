@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] 2020-10-01
+
 ### Fixed
 
 - Updated dependency `folded/exception` to version 0.4.\*.
