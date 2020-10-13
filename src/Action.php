@@ -26,8 +26,8 @@ final class Action
      * Include the content of the file.
      * The parameters are passed using extract(), and keys are reflected as variable names.
      *
-     * @param string $path       The path to the file (can use dot syntax).
-     * @param array  $parameters An array of key-value pairs to pass to the called action.
+     * @param string              $path       The path to the file (can use dot syntax).
+     * @param array<string,mixed> $parameters An array of key-value pairs to pass to the called action.
      *
      * @throws InvalidArgumentException If the action file is not found.
      *
@@ -77,8 +77,8 @@ final class Action
      *
      * @param string $path The path to the actions files.
      *
-     * @throws Folded\Exceptions\FolderNotFoundException If the folder is not found.
-     * @throws Folded\Exceptions\NotAFolderException     If the path is not a folder.
+     * @throws FolderNotFoundException If the folder is not found.
+     * @throws NotAFolderException     If the path is not a folder.
      *
      * @since 0.1.0
      *
