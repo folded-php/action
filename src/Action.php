@@ -13,7 +13,7 @@ use InvalidArgumentException;
  *
  * @since 0.1.0
  */
-class Action
+final class Action
 {
     /**
      * The folder that contains the actions files.
